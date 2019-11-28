@@ -1,0 +1,46 @@
+.list {
+    .topics {
+        width: rem(700px);
+        margin: 0 auto;
+        // margin-top: rem(428px);
+        background: #fff;
+        border-radius: rem(10px);
+        padding: 0 rem(10px);
+        .topic {
+            display: flex;
+            align-items: center;
+            height: rem(100px);
+            border-bottom: 1px solid #ccc;
+            width: 100%;
+            img {
+                width: rem(80px);
+            }
+            .tab {
+                margin: 0 rem(10px) 0 rem(20px);
+                div {
+                    width: rem(80px);
+                    height: rem(60px);
+                    background: #ccc;
+                    text-align: center;
+                    line-height: rem(60px);
+                    font-size: rem(30px);
+                    border-radius: rem(10px);
+                }
+                .top {
+                    background: yellowgreen;
+                }
+                .good {
+                    background: red;
+                }
+            }
+            .title {
+                padding: rem(10px) 0 rem(5px);
+                overflow: hidden;
+                font-size: rem(28px);
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                flex: 1;
+            }
+        }
+    }
+}

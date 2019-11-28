@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul,
+ol {
+    list-style: none
+}
+
+body {
+    background: #eee;
+}
+
+@function rem($px) {
+    @return $px/75px * 1rem
+}
+
+.datainfo {
+    width: rem(720px);
+    margin: 0 auto;
+    height: rem(90px);
+    text-align: center;
+    line-height: rem(90px);
+    font-size: rem(30px);
+    background: #fff;
+}
